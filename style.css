@@ -192,3 +192,16 @@ button[type="submit"] {
     background-color: #007bff;
     color: white;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc nếu cần */
+    width: 100%;
+}
+
+.video-container video {
+    width: 80%; /* Điều chỉnh kích thước video */
+    max-width: 800px; /* Giới hạn chiều rộng tối đa */
+    border-radius: 10px;
+}
